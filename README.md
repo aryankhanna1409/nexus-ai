@@ -15,6 +15,12 @@
 ---
 
 <div align="center">
+<img src="assets/demo.gif" width="100%" alt="make demo in the terminal: simulation, C analysis, anomaly detection, cited root cause, then the agent asks before rolling back">
+<br>
+<sub>Real run of <code>make demo</code> in offline mode, approving both risky steps. Output is paced for reading; the actual run takes a few seconds.</sub>
+</div>
+
+<div align="center">
 <img src="assets/report.png" width="100%" alt="The generated incident report: summary cards and before/after charts">
 <br>
 <sub>Real run of <code>make demo</code>: the HTML report it writes to <code>out/report.html</code>. Red dashed lines are the network without the fix; green is after the agent's rollback.</sub>
